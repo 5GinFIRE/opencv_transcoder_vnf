@@ -3,7 +3,7 @@ vnfd:vnfd-catalog:
      -  id: opencv_transcoder_vnf
         name: opencv_transcoder_vnf
         short-name: opencv_transcoder_vnf
-        logo: icons/5GinFIRE.png
+        logo: 5GinFIRE.png
         vendor: 5GinFIRE
         version: '1.1'
         description: OpenCV Transcoder VNF

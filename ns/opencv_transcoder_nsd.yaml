@@ -5,7 +5,7 @@ nsd:nsd-catalog:
         short-name: "opencv_transcoder_ns"
         description: "OpenCV Transcoder NS"
         vendor: "5GinFIRE"
-        logo: "icons/5GinFIRE.png"
+        logo: "5GinFIRE.png"
         version: "1.0"
         constituent-vnfd:
         -   member-vnf-index: 1
