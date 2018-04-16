@@ -4,7 +4,7 @@ This repository hosts a OpenCV Video Transcoder VNF. It also contains an example
 
 ## Download the VM Image
 
-You can find the VM image [here](https://atnog.av.it.pt/eduardosousa/opencv_transcoder_image.qcow2).
+You can find the VM image [here](https://atnog.av.it.pt/~eduardosousa/opencv_transcoder_image.qcow2).
 The VM image should be uploaded with the following name: **opencv_transcoder_image**
 
 ## Build the descriptors
