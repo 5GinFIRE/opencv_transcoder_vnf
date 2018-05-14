@@ -1,10 +1,8 @@
-FROM ubuntu
+FROM ubuntu:16.04
 
-RUN apt-get update
-RUN apt-get install -y software-properties-common
-RUN apt-get install -y git
-RUN apt-get install -y curl
-RUN apt-get install -y python-pip python-dev build-essential
+RUN apt update
+RUN apt upgrade
+RUN apt install -y software-properties-common git curl python-pip python-dev build-essential
 #RUN apt install -y snapd
 #RUN snap install juju --classic
 RUN pip install pyyaml
