@@ -18,7 +18,7 @@ pipeline {
           steps {
             echo 'Testing before building'
             sh 'chmod +x ./devops/descriptor-packages/tools/upgrade_descriptor_version.py'
-            sh './devops/descriptor-packages/tools/upgrade_descriptor_version.py --test vnf/$nameVNFD/opencv_transcoder_vnfd.yaml'
+            sh './devops/descriptor-packages/tools/upgrade_descriptor_version.py --test vnf/opencv_transcoder_vnfd.yaml'
           }
         }
         //think about how to build many charms
